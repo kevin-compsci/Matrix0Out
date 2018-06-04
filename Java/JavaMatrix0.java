@@ -14,8 +14,6 @@ import java.util.*;
 
 //class
 class JavaMatrix0 {
-	//Global Declarations
-
 	//main driver
 	public static void main(String[] args) {
 		//local Declarations
@@ -46,7 +44,7 @@ class JavaMatrix0 {
 		//loop through all elements in grid
 		while(i < sizeRow) {
 			while (j < sizeCol) {
-				myGrid[i][j] = rand.nextInt(10);
+				myGrid[i][j] = rand.nextInt(10); //set random int as element
 				j++;
 			}
 			i++; j=0;
@@ -108,7 +106,7 @@ class JavaMatrix0 {
 				j++;
 			}
 			System.out.println(""); //new line
-			i++;j=0;
+			i++; j=0;
 		}
 	}
 }
