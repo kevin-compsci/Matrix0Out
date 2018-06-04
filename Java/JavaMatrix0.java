@@ -64,7 +64,7 @@ class JavaMatrix0 {
 		while(i < myGrid.length) {
 			while(j < myGrid[i].length) {
 				//conditional to check if element is 0 or row/col has already been 0'd
-				if(myGrid[i][j] == 0 && (!refMap.containsKey(i) && !refMap.containsValue(j))) {
+				if(myGrid[i][j] == 0 && !refMap.containsKey(i) && !refMap.containsValue(j)) {
 					//call helper function to 0 out
 					myGrid = setZeros(myGrid, i, j);
 
