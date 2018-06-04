@@ -88,14 +88,12 @@ class JavaMatrix0 {
 			myGrid[i][refCol] = 0;
 			i++;
 		}
-
 		//zero out the row where refRow starts
 		while(j < myGrid[refRow].length) {
 			myGrid[refRow][j] = 0;
 			j++;
 		}
-
-		return myGrid;
+		return myGrid; //return edited grid
 	}
 
 	//print out elements
